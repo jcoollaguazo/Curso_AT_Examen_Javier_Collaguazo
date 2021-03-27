@@ -1,0 +1,42 @@
+.posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post {
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: 240px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.post h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post .status {
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.post table {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.post table .Label {
+    font-weight: bold;
+}

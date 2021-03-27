@@ -1,0 +1,26 @@
+<div class="posts">
+    <div class="post" >          
+      <img [src]=arrPersonajes.image>
+      <table>
+        <tr>
+          <td class="Label">ID:</td>          
+          <td>{{arrPersonajes.id}}</td>
+        </tr>
+        <tr>
+          <td class="Label">Nombre:</td>
+          <td>{{arrPersonajes.name}}</td>
+        </tr>
+        <tr>
+          <td class="Label">Especie:</td>
+          <td>{{arrPersonajes.species}}</td>
+        </tr>
+        <tr>
+          <td class="Label">Genero:</td>
+          <td>{{arrPersonajes.gender}}</td>
+        </tr>        
+      </table> 
+      <div class="status" [ngStyle]="propiedadesParrafo">
+        {{arrPersonajes.status}}
+      </div>     
+    </div>    
+</div>
